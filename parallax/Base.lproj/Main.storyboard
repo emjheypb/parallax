@@ -26,7 +26,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="B9J-hI-Ukk">
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="B9J-hI-Ukk">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAMERAS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miM-aN-UqX">
@@ -39,12 +39,12 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="miM-aN-UqX" secondAttribute="bottom" id="55H-FH-5D3"/>
-                                                <constraint firstItem="B9J-hI-Ukk" firstAttribute="top" secondItem="HSu-5a-e2H" secondAttribute="top" id="Le2-7X-XnQ"/>
                                                 <constraint firstItem="miM-aN-UqX" firstAttribute="top" secondItem="HSu-5a-e2H" secondAttribute="top" id="NE7-zJ-c0B"/>
-                                                <constraint firstItem="B9J-hI-Ukk" firstAttribute="leading" secondItem="HSu-5a-e2H" secondAttribute="leading" id="RYh-zK-4lq"/>
                                                 <constraint firstAttribute="trailing" secondItem="miM-aN-UqX" secondAttribute="trailing" id="clA-Bv-cBL"/>
-                                                <constraint firstAttribute="bottom" secondItem="B9J-hI-Ukk" secondAttribute="bottom" id="rfs-PR-iXs"/>
-                                                <constraint firstAttribute="trailing" secondItem="B9J-hI-Ukk" secondAttribute="trailing" id="wyR-nh-TGl"/>
+                                                <constraint firstAttribute="trailing" secondItem="B9J-hI-Ukk" secondAttribute="trailing" id="oaj-rw-98s"/>
+                                                <constraint firstItem="B9J-hI-Ukk" firstAttribute="top" secondItem="HSu-5a-e2H" secondAttribute="top" id="qn6-P8-djQ"/>
+                                                <constraint firstAttribute="bottom" secondItem="B9J-hI-Ukk" secondAttribute="bottom" id="roP-9X-cHq"/>
+                                                <constraint firstItem="B9J-hI-Ukk" firstAttribute="leading" secondItem="HSu-5a-e2H" secondAttribute="leading" id="s0u-jc-n15"/>
                                                 <constraint firstItem="miM-aN-UqX" firstAttribute="leading" secondItem="HSu-5a-e2H" secondAttribute="leading" id="zEX-hV-QLm"/>
                                             </constraints>
                                         </tableViewCellContentView>
